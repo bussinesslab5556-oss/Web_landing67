@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Video Creator | Professional Video Production in Minutes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .bg-primary { background-color: #4f46e5; } /* Deep Indigo/Purple */
+        .text-primary { color: #4f46e5; }
+        .bg-accent { background-color: #06b6d4; } /* Cyan */
+        .text-accent { color: #06b6d4; }
+        .hero-gradient {
+            background: radial-gradient(circle at top right, rgba(79, 70, 229, 0.1), transparent),
+                        radial-gradient(circle at bottom left, rgba(6, 182, 212, 0.05), transparent);
+        }
+        .cta-shadow {
+            box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.4);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <span class="font-bold text-xl tracking-tight">VideoAI <span class="text-primary">Pro</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+                    <a href="#problem" class="hover:text-primary transition">The Problem</a>
+                    <a href="#solution" class="hover:text-primary transition">Solution</a>
+                    <a href="#benefits" class="hover:text-primary transition">Benefits</a>
+                    <a href="#who" class="hover:text-primary transition">For You</a>
+                </div>
+                <a href="YOUR_AFFILIATE_LINK_HERE" class="bg-primary text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-indigo-700 transition cta-shadow">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-20 pb-24 lg:pt-32 lg:pb-40 hero-gradient">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-indigo-50 text-primary text-xs font-bold uppercase tracking-wider mb-6 border border-indigo-100">The Future of Content Creation</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold text-gray-900 leading-tight mb-6">
+                Turn Your Ideas Into <span class="text-primary">Viral Videos</span> Using AI.
+            </h1>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Create high-converting video content for ads, social media, and courses in minutes. No technical skills, expensive gear, or editing experience required.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="YOUR_AFFILIATE_LINK_HERE" class="w-full sm:w-auto bg-primary text-white px-10 py-5 rounded-xl text-lg font-bold hover:bg-indigo-700 transition transform hover:scale-105 cta-shadow">
+                    Start Creating Now — It's Free
+                </a>
+                <p class="text-sm text-gray-500 font-medium flex items-center">
+                    <svg class="w-5 h-5 text-accent mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    No credit card required
+                </p>
+            </div>
+            
+            <!-- Hero Visual Placeholder -->
+            <div class="mt-16 relative max-w-5xl mx-auto">
+                <div class="aspect-video bg-gray-200 rounded-2xl shadow-2xl overflow-hidden border-8 border-white">
+                    <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-gray-100 to-gray-200">
+                         <svg class="w-20 h-20 text-gray-400 opacity-50" fill="currentColor" viewBox="0 0 20 20"><path d="M2 6a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path><path stroke="#fff" stroke-width="2" d="M10 10l3 3m0 0l-3 3m3-3H7"></path></svg>
+                         <span class="absolute text-gray-400 font-semibold italic">Interactive Demo/Dashboard Preview</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Why Is Video Creation <span class="text-red-500 underline decoration-2">So Difficult?</span></h2>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        Traditional video production is a bottleneck for modern businesses. Whether you are an affiliate marketer or a coach, the hurdles remain the same:
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-red-100 flex items-center justify-center text-red-600">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                            </div>
+                            <p class="ml-3 text-gray-700 font-medium">Outrageous costs for freelancers and professional equipment.</p>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-red-100 flex items-center justify-center text-red-600">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                            </div>
+                            <p class="ml-3 text-gray-700 font-medium">Steep learning curves for complex editing software.</p>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-red-100 flex items-center justify-center text-red-600">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                            </div>
+                            <p class="ml-3 text-gray-700 font-medium">Hours spent staring at a blank screen trying to write scripts.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm">
+                    <div class="space-y-6">
+                        <div class="h-4 bg-gray-200 rounded-full w-3/4"></div>
+                        <div class="h-4 bg-gray-200 rounded-full w-1/2"></div>
+                        <div class="h-32 bg-gray-200 rounded-2xl w-full flex items-center justify-center text-gray-400 font-medium italic">Traditional Workflow: 15+ Hours</div>
+                        <div class="h-4 bg-gray-200 rounded-full w-full"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12">The Smarter Way to Scale Content</h2>
+            <div class="p-10 bg-primary rounded-3xl text-white shadow-xl relative overflow-hidden">
+                <div class="relative z-10 max-w-3xl mx-auto">
+                    <p class="text-2xl font-semibold mb-6">Introducing VideoAI Pro</p>
+                    <p class="text-lg opacity-90 leading-relaxed mb-8">
+                        The all-in-one AI platform that handles everything from scriptwriting to final export. We've simplified the entire creative process into a few clicks so you can focus on growing your business, not editing clips.
+                    </p>
+                    <a href="YOUR_AFFILIATE_LINK_HERE" class="inline-block bg-white text-primary px-8 py-4 rounded-xl font-bold hover:bg-gray-100 transition">Explore the Platform</a>
+                </div>
+                <!-- Abstract Design Elements -->
+                <div class="absolute top-0 right-0 w-64 h-64 bg-accent opacity-20 blur-3xl rounded-full -mr-20 -mt-20"></div>
+                <div class="absolute bottom-0 left-0 w-64 h-64 bg-white opacity-10 blur-3xl rounded-full -ml-20 -mb-20"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Benefits Section -->
+    <section id="benefits" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900">Powerful Features for Growth</h2>
+                <div class="w-20 h-1.5 bg-accent mx-auto mt-4 rounded-full"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Benefit 1 -->
+                <div class="p-8 bg-white rounded-2xl border border-gray-100 shadow-sm card-hover">
+                    <div class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-primary mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">AI Generation</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Turn text prompts into high-quality video scenes automatically using advanced neural networks.</p>
+                </div>
+                
+                <!-- Benefit 2 -->
+                <div class="p-8 bg-white rounded-2xl border border-gray-100 shadow-sm card-hover">
+                    <div class="w-12 h-12 bg-cyan-50 rounded-xl flex items-center justify-center text-accent mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.042 11.35p4.757 1.225m0 0A8.973 8.973 0 0112 21.75V18.25"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11l-4-4m0 0l-4 4m4-4v12"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Multi-Language</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Instantly generate scripts and human-like voiceovers in over 50+ languages to reach global audiences.</p>
+                </div>
+                
+                <!-- Benefit 3 -->
+                <div class="p-8 bg-white rounded-2xl border border-gray-100 shadow-sm card-hover">
+                    <div class="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-primary mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">AI Audio & Music</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Create unique, royalty-free background music and perfect soundscapes tailored to your video’s mood.</p>
+                </div>
+                
+                <!-- Benefit 4 -->
+                <div class="p-8 bg-white rounded-2xl border border-gray-100 shadow-sm card-hover">
+                    <div class="w-12 h-12 bg-cyan-50 rounded-xl flex items-center justify-center text-accent mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Fast Export</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Cloud-based rendering means you can export 4K videos in seconds without slowing down your computer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- "Who this is for" Section -->
+    <section id="who" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900">Built for Modern Creatives</h2>
+                <p class="text-gray-600 mt-4">Whatever your niche, VideoAI Pro accelerates your results.</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="flex items-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <span class="text-2xl mr-4">📈</span>
+                    <span class="font-semibold text-gray-800">Affiliate Marketers</span>
+                </div>
+                <div class="flex items-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <span class="text-2xl mr-4">📱</span>
+                    <span class="font-semibold text-gray-800">Content Creators</span>
+                </div>
+                <div class="flex items-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <span class="text-2xl mr-4">🛍️</span>
+                    <span class="font-semibold text-gray-800">E-com Sellers</span>
+                </div>
+                <div class="flex items-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <span class="text-2xl mr-4">🎓</span>
+                    <span class="font-semibold text-gray-800">Online Coaches</span>
+                </div>
+                <div class="flex items-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <span class="text-2xl mr-4">💼</span>
+                    <span class="font-semibold text-gray-800">Freelancers</span>
+                </div>
+                <div class="flex items-center p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                    <span class="text-2xl mr-4">🏢</span>
+                    <span class="font-semibold text-gray-800">Small Agencies</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-b border-gray-100 py-12">
+            <div class="grid md:grid-cols-3 gap-12 text-center">
+                <div>
+                    <div class="text-accent mb-4 flex justify-center">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 4.946-2.597 9.29-6.518 11.771a1.304 1.304 0 01-1.482 0C6.097 16.29 3.5 11.947 3.5 7c0-.68.056-1.35.166-2.001 1.247.1 2.454.34 3.582.705A1.2 1.2 0 018 6.85v3.3a1 1 0 001 1h2a1 1 0 001-1v-3.3a1.2 1.2 0 01.752-1.146 12.428 12.428 0 003.582-.705z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2">Commercial Rights</h4>
+                    <p class="text-sm text-gray-500">You own everything you create. Use it for clients or your own ads without worry.</p>
+                </div>
+                <div>
+                    <div class="text-accent mb-4 flex justify-center">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2">Cloud-Based Access</h4>
+                    <p class="text-sm text-gray-500">No software to download. Access your projects from any browser, anywhere in the world.</p>
+                </div>
+                <div>
+                    <div class="text-accent mb-4 flex justify-center">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd"></path></svg>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2">Copyright Safe</h4>
+                    <p class="text-sm text-gray-500">Built-in library of licensed assets ensures your content stays on platform.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center bg-white p-16 rounded-[3rem] shadow-xl border border-gray-100">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-6">Ready to Create Your First AI Video?</h2>
+            <p class="text-xl text-gray-600 mb-10">
+                Join thousands of creators who have ditched the old way of editing. Save time, save money, and scale your content today.
+            </p>
+            <a href="YOUR_AFFILIATE_LINK_HERE" class="inline-block bg-primary text-white px-12 py-6 rounded-2xl text-xl font-bold hover:bg-indigo-700 transition transform hover:scale-105 cta-shadow">
+                Instant Access — Get Started Now
+            </a>
+            <p class="mt-6 text-gray-400 text-sm">Limited time offer: Includes Commercial License</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-100 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center space-x-2 mb-4 md:mb-0">
+                <div class="w-6 h-6 bg-primary rounded-md flex items-center justify-center">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                </div>
+                <span class="font-bold text-gray-500">VideoAI Pro</span>
+            </div>
+            <div class="text-gray-400 text-sm">
+                &copy; 2025 VideoAI Pro. All rights reserved. Professional AI Video Creation.
+            </div>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" class="text-gray-400 hover:text-primary text-sm">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-primary text-sm">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
